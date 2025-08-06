@@ -1,11 +1,11 @@
-***💳 Loan Default Prediction System  ***
+# 💳 Loan Default Prediction System  
 
 A system designed to predict loan default risk using advanced Machine Learning and Deep Learning models. The goal is to assist financial institutions in assessing creditworthiness and reducing the risk of non-performing loans.
 
-📌 Objective  
+## 📌 Objective  
 This system processes loan application data, cleans and balances it, and applies classification models to determine the likelihood of loan repayment. It provides accuracy metrics and classification reports to support informed decision-making.
 
-✅ Scope  
+## ✅ Scope  
 - Data preprocessing: handling missing values, encoding categorical variables, and scaling features  
 - Class imbalance correction using SMOTE  
 - Training and evaluation of three models:
@@ -14,7 +14,7 @@ This system processes loan application data, cleans and balances it, and applies
   - Feedforward Neural Network  
 - Performance reporting with accuracy scores and classification metrics  
 
-🧠 Workflow Overview  
+## 🧠 Workflow Overview  
 1. **Data Loading**  
    Load `loan_data.csv`, containing customer loan information.  
 2. **Preprocessing & Balancing**  
@@ -36,8 +36,7 @@ This system processes loan application data, cleans and balances it, and applies
    pip install -r requirements.txt
 
 
-**Structure **
-.  
+## Structure   
 ├── Loan.py          # Main script for training & evaluation  
 ├── loan_data.csv    # Dataset file (user-provided)  
 ├── requirements.txt # Dependencies  
