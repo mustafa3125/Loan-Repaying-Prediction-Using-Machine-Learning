@@ -1,4 +1,4 @@
-💳 Loan Default Prediction System  
+***💳 Loan Default Prediction System  ***
 A system designed to predict loan default risk using advanced Machine Learning and Deep Learning models. The goal is to assist financial institutions in assessing creditworthiness and reducing the risk of non-performing loans.
 
 📌 Objective  
@@ -33,3 +33,12 @@ This system processes loan application data, cleans and balances it, and applies
 2. Install dependencies:  
    ```bash
    pip install -r requirements.txt
+
+
+**Structure **
+.  
+├── Loan.py          # Main script for training & evaluation  
+├── loan_data.csv    # Dataset file (user-provided)  
+├── requirements.txt # Dependencies  
+└── README.md        # Documentation  
+
